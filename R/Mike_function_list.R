@@ -124,6 +124,8 @@ mike_date_column <- function(column){
 
   } else {new_column = as.Date(column)}
 
+  f <- 2
+
   return(new_column)
 
 }
@@ -150,3 +152,5 @@ fmt_pvalue_with_stars <- function(x) {
     TRUE ~ style_pvalue(x)
   )
 }
+
+# test comment again
